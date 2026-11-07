@@ -1,13 +1,14 @@
 [gd_scene format=3 uid="uid://c2weuwiqt1yq0"]
 
-[ext_resource type="Texture2D" uid="uid://cefy3sqdnngtk" path="res://assets/fondos/20261107_134338.jpg" id="1_2mvdo"]
 [ext_resource type="Script" uid="uid://2dor7kr2yw2m" path="res://script/ratón.gd" id="1_4n2pv"]
 
-[node name="ObjetoDesaparecible" type="Node2D" unique_id=1524865348]
-position = Vector2(0, 2)
+[sub_resource type="CircleShape2D" id="CircleShape2D_8w0r3"]
+radius = 103.121284
+
+[node name="ratón" type="Node2D" unique_id=1524865348]
 script = ExtResource("1_4n2pv")
 
-[node name="TextureButton" type="TextureButton" parent="." unique_id=779962508]
-offset_right = 4047.0
-offset_bottom = 2873.0
-texture_normal = ExtResource("1_2mvdo")
+[node name="Area2D" type="Area2D" parent="." unique_id=1288923520]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D" unique_id=1139837858]
+shape = SubResource("CircleShape2D_8w0r3")
