@@ -7,7 +7,7 @@ valid=false
 
 [deps]
 
-source_file="res://sound/Soundtrack/Euphoria_01.ogg"
+source_file="res://Sound/Soundtrack/Euphoria_01.ogg"
 
 [params]
 

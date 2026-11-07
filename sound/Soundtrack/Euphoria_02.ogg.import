@@ -3,12 +3,12 @@
 importer="oggvorbisstr"
 type="AudioStreamOggVorbis"
 uid="uid://buen5k03dly7e"
-path="res://.godot/imported/Euphoria_02.ogg-20d8867a50d9845e713fe099e3387f9e.oggvorbisstr"
+path="res://.godot/imported/Euphoria_02.ogg-2b47dd84535f2a67c63e370cbe2f7f54.oggvorbisstr"
 
 [deps]
 
-source_file="res://sound/Soundtrack/Euphoria_02.ogg"
-dest_files=["res://.godot/imported/Euphoria_02.ogg-20d8867a50d9845e713fe099e3387f9e.oggvorbisstr"]
+source_file="res://Sound/Soundtrack/Euphoria_02.ogg"
+dest_files=["res://.godot/imported/Euphoria_02.ogg-2b47dd84535f2a67c63e370cbe2f7f54.oggvorbisstr"]
 
 [params]
 
