@@ -1,0 +1,18 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://brsrtwvrdwflc"
+valid=false
+
+[deps]
+
+source_file="res://Sound/Soundtrack/Fusión euphoria y nostangia.ogg"
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4
