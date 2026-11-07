@@ -20,6 +20,10 @@ DialogueManager="*uid://c3rodes2l3gxb"
 Dialogo="*uid://budrgeo1phnek"
 Global="*uid://0whpyowuae3o"
 
+[dialogue_manager]
+
+runtime/balloon_path="res://scenes/dialogo/balloon.tscn"
+
 [display]
 
 window/stretch/mode="canvas_items"
