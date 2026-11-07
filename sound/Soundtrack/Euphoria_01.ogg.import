@@ -2,12 +2,12 @@
 
 importer="oggvorbisstr"
 type="AudioStreamOggVorbis"
-uid="uid://dl0nxbaejem54"
+uid="uid://cg0opkxcaffu6"
 valid=false
 
 [deps]
 
-source_file="res://Sound/Soundtrack/Euphoria_01.ogg"
+source_file="res://sound/Soundtrack/Euphoria_01.ogg"
 
 [params]
 

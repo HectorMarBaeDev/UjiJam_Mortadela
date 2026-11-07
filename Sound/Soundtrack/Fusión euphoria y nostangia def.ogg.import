@@ -3,12 +3,12 @@
 importer="oggvorbisstr"
 type="AudioStreamOggVorbis"
 uid="uid://b7tyhqbrlpi6j"
-path="res://.godot/imported/Fusión euphoria y nostangia def.ogg-afd5d0f24c4b95872deb5afcbb66c6c8.oggvorbisstr"
+path="res://.godot/imported/Fusión euphoria y nostangia def.ogg-210a13824efb2dfdafc1fcb1d85033fe.oggvorbisstr"
 
 [deps]
 
-source_file="res://Sound/Soundtrack/Fusión euphoria y nostangia def.ogg"
-dest_files=["res://.godot/imported/Fusión euphoria y nostangia def.ogg-afd5d0f24c4b95872deb5afcbb66c6c8.oggvorbisstr"]
+source_file="res://sound/Soundtrack/Fusión euphoria y nostangia def.ogg"
+dest_files=["res://.godot/imported/Fusión euphoria y nostangia def.ogg-210a13824efb2dfdafc1fcb1d85033fe.oggvorbisstr"]
 
 [params]
 

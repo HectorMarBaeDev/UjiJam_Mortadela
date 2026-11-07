@@ -2,13 +2,13 @@
 
 importer="oggvorbisstr"
 type="AudioStreamOggVorbis"
-uid="uid://cxavkiu45hgso"
-path="res://.godot/imported/RisaLen.ogg-470be9d6daddf34caec46b9324df2797.oggvorbisstr"
+uid="uid://b47hl30jc22ou"
+path="res://.godot/imported/RisaLen.ogg-ebbe087b266001cc0148940939faf741.oggvorbisstr"
 
 [deps]
 
-source_file="res://Sound/RisaLen.ogg"
-dest_files=["res://.godot/imported/RisaLen.ogg-470be9d6daddf34caec46b9324df2797.oggvorbisstr"]
+source_file="res://sound/RisaLen.ogg"
+dest_files=["res://.godot/imported/RisaLen.ogg-ebbe087b266001cc0148940939faf741.oggvorbisstr"]
 
 [params]
 
