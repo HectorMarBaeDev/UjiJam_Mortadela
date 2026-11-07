@@ -1,0 +1,23 @@
+[gd_scene format=3 uid="uid://i83rmdcdux3a"]
+
+[ext_resource type="Script" uid="uid://dblohdvdof53r" path="res://script/inicio.gd" id="1_i3824"]
+
+[node name="Inicio" type="Node2D" unique_id=602078809]
+script = ExtResource("1_i3824")
+
+[node name="Button2" type="Button" parent="." unique_id=1897560645]
+offset_left = 166.0
+offset_top = 243.0
+offset_right = 501.0
+offset_bottom = 421.0
+text = "salir"
+
+[node name="Button" type="Button" parent="." unique_id=684642116]
+offset_left = 686.0
+offset_top = 256.0
+offset_right = 1029.0
+offset_bottom = 420.0
+text = "jugar"
+
+[connection signal="pressed" from="Button2" to="." method="_on_button_2_pressed"]
+[connection signal="pressed" from="Button" to="." method="_on_button_pressed"]
