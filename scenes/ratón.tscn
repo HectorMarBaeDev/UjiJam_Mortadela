@@ -1,0 +1,13 @@
+[gd_scene format=3 uid="uid://c2weuwiqt1yq0"]
+
+[ext_resource type="Texture2D" uid="uid://cefy3sqdnngtk" path="res://assets/fondos/20261107_134338.jpg" id="1_2mvdo"]
+[ext_resource type="Script" uid="uid://2dor7kr2yw2m" path="res://script/ratón.gd" id="1_4n2pv"]
+
+[node name="ObjetoDesaparecible" type="Node2D" unique_id=1524865348]
+position = Vector2(0, 2)
+script = ExtResource("1_4n2pv")
+
+[node name="TextureButton" type="TextureButton" parent="." unique_id=779962508]
+offset_right = 4047.0
+offset_bottom = 2873.0
+texture_normal = ExtResource("1_2mvdo")
