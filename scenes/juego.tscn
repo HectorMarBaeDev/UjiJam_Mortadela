@@ -1,6 +1,10 @@
 [gd_scene format=3 uid="uid://q8edhh7g2if2"]
 
 [ext_resource type="Script" uid="uid://h5i75sg8yh0x" path="res://script/juego.gd" id="1_x4n2o"]
+[ext_resource type="PackedScene" uid="uid://c2weuwiqt1yq0" path="res://scenes/ratón.tscn" id="2_uc3sl"]
 
 [node name="Juego" type="Node2D" unique_id=978966510]
 script = ExtResource("1_x4n2o")
+
+[node name="ratón" parent="." unique_id=1524865348 instance=ExtResource("2_uc3sl")]
+position = Vector2(678, 366)
