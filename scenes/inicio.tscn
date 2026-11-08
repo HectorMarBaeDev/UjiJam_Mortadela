@@ -16,7 +16,7 @@ text = "salir"
 [node name="Button" type="Button" parent="." unique_id=684642116]
 offset_left = -488.0
 offset_top = -115.0
-offset_right = 1735.0
+offset_right = 1994.2734
 offset_bottom = 49.0
 rotation = 0.2617994
 text = "jugar"
@@ -42,6 +42,18 @@ offset_right = 605.0
 offset_bottom = 312.0
 placeholder_text = "Inserta nombre"
 
+[node name="ButtonXD" type="Button" parent="." unique_id=961200516]
+offset_left = 292.0508
+offset_top = 94.007996
+offset_right = 456.23587
+offset_bottom = 258.31848
+rotation = 0.2617994
+flat = true
+
+[node name="Timer" type="Timer" parent="." unique_id=2112590081]
+
 [connection signal="pressed" from="Button2" to="." method="_on_button_2_pressed"]
 [connection signal="pressed" from="Button" to="." method="_on_button_pressed"]
 [connection signal="pressed" from="ColorRect/Button3" to="." method="_on_button_3_pressed"]
+[connection signal="pressed" from="ButtonXD" to="." method="_on_button_xd_pressed"]
+[connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]
