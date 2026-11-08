@@ -1,0 +1,13 @@
+~ start
+[color=#ff0000]???[/color]: ...
+[color=#00ff00]???[/color]: Sí, fue ayer, por la noche
+[color=ff0000]???[/color]: ...
+[color=#00ff00]???[/color]: El domingo iremos a despedirnos. Estate preparado para despedirte. No lo verás por mucho tiempo.
+[color=ff0000]???[/color]: ...
+{{Global.nombre}}: *Bostezo* ¡Qué a gusto he dormido! Hace un día increíble, hace sol, se escuchan a los pájaros cantar...
+{{Global.nombre}}: ¡Voy a prepararme unas tostadas con mantequilla y mermelada para desayunar! Ahhhh, hoy si que es un buen día! 
+{{Global.nombre}}: (Mmmmm... qué buena que está.)
+Madre: Me voy a trabajar.
+{{Global.nombre}}: Claro mamá, ¡que te vaya bien en el trabajo!
+{{Global.nombre}}: Uy, la mesa está muy sucia después de desayunar, ¡debería hacer desaparecer el desayuno!
+=> END

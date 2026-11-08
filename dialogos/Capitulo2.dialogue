@@ -1,0 +1,10 @@
+~ start
+{{Global.nombre}}: Hoy tengo que hacer muchos trabajos de clase. Lo mejor será ponerse lo antes posible.
+Madre: {{Global.nombre}}, recuerda que tienes que hacer las tareas de casa antes de que yo vuelva.
+Madre: ¡Simplemente hazlo! ¡De verdad, ya no aguanto más! ¡Ya tengo suficiente con todo lo que ha pasado para que tú estés molestando!
+{{Global.nombre}}: En fin... Supongo que tendré que hacer las tareas antes de hacer los deberes. 
+{{Global.nombre}}: Ahora tengo que ir a la cocina a deshacerme de la basura.
+{{Global.nombre}}: (¿Y toda esta basura? Espera, ¡¿todas esas botellas y cigarrillos son de mi madre?!)
+{{Global.nombre}}: *Suspiro* Por fin he acabado de limpiarlo todo. Vaya, ya se ha hecho muy tarde. Mierda, todavía no he podido hacer los deberes. Joder los tengo que hacer ya...
+{{Global.nombre}}: Aunque, si desaparecen... Ya no existirán nunca más. Y no me tendré que preocupar. Nunca más.
+=> END

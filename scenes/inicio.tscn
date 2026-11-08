@@ -1,6 +1,74 @@
 [gd_scene format=3 uid="uid://i83rmdcdux3a"]
 
 [ext_resource type="Script" uid="uid://dblohdvdof53r" path="res://script/inicio.gd" id="1_i3824"]
+[ext_resource type="Texture2D" uid="uid://b7tu77e0abid7" path="res://assets/animaciones/Animacion1.png" id="2_oc22k"]
+[ext_resource type="Texture2D" uid="uid://bdma4edxewpih" path="res://assets/animaciones/Animacion2.png" id="3_se2mk"]
+[ext_resource type="Texture2D" uid="uid://chf2kbp3nqs63" path="res://assets/animaciones/Animacion3.png" id="4_4xtsl"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_8w0r3"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_oc22k")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_se2mk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_4xtsl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_se2mk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_oc22k")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_oc22k")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_oc22k")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_oc22k")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_oc22k")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_oc22k")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_oc22k")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_oc22k")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_oc22k")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_oc22k")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_oc22k")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_oc22k")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_oc22k")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_oc22k")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_oc22k")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 4.0
+}]
 
 [node name="Inicio" type="Node2D" unique_id=602078809]
 script = ExtResource("1_i3824")
@@ -20,6 +88,12 @@ offset_right = 1994.2734
 offset_bottom = 49.0
 rotation = 0.2617994
 text = "jugar"
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=123638887]
+position = Vector2(768, 432)
+scale = Vector2(0.3, 0.3)
+sprite_frames = SubResource("SpriteFrames_8w0r3")
+autoplay = "default"
 
 [node name="ColorRect" type="ColorRect" parent="." unique_id=1840288504]
 visible = false
