@@ -8,3 +8,29 @@ script = ExtResource("1_x4n2o")
 
 [node name="ratón" parent="." unique_id=1524865348 instance=ExtResource("2_uc3sl")]
 position = Vector2(678, 366)
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=562287199]
+process_mode = 3
+offset_right = 1009.0
+offset_bottom = 769.0
+
+[node name="salir" type="Button" parent="ColorRect" unique_id=214515797]
+layout_mode = 0
+offset_left = 276.0
+offset_top = 207.0
+offset_right = 618.0
+offset_bottom = 364.0
+text = "salir
+"
+
+[node name="continuar" type="Button" parent="ColorRect" unique_id=300932748]
+layout_mode = 0
+offset_left = 263.0
+offset_top = 450.0
+offset_right = 854.0
+offset_bottom = 577.0
+text = "continuar
+"
+
+[connection signal="pressed" from="ColorRect/salir" to="." method="_on_salir_pressed"]
+[connection signal="pressed" from="ColorRect/continuar" to="." method="_on_continuar_pressed"]
