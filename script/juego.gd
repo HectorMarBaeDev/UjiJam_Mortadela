@@ -1,5 +1,7 @@
 extends Node2D
 
+var fondo1 = 
+
 func _ready() -> void:
 	Dialogo.dia("dialogo3_4")
 	#Tercer gameplay del capitulo 3

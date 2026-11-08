@@ -1,7 +1,7 @@
 [gd_scene format=3 uid="uid://c2weuwiqt1yq0"]
 
 [ext_resource type="Script" uid="uid://2dor7kr2yw2m" path="res://script/ratón.gd" id="1_4n2pv"]
-[ext_resource type="Texture2D" uid="uid://b7tu77e0abid7" path="res://assets/animaciones/Animacion1.png" id="2_4n2pv"]
+[ext_resource type="Texture2D" uid="uid://c7lca3v1pxdpw" path="res://assets/Cursor/borrador.png" id="2_4n2pv"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_8w0r3"]
 radius = 103.121284
@@ -15,6 +15,6 @@ script = ExtResource("1_4n2pv")
 shape = SubResource("CircleShape2D_8w0r3")
 
 [node name="Animacion1" type="Sprite2D" parent="Area2D" unique_id=166245611]
-position = Vector2(-332, -25)
-scale = Vector2(0.48027343, 0.11805555)
+position = Vector2(12, 14.0000305)
+scale = Vector2(0.0955547, 0.102777794)
 texture = ExtResource("2_4n2pv")
