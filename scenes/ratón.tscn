@@ -1,7 +1,6 @@
 [gd_scene format=3 uid="uid://c2weuwiqt1yq0"]
 
 [ext_resource type="Script" uid="uid://2dor7kr2yw2m" path="res://script/ratón.gd" id="1_4n2pv"]
-[ext_resource type="Texture2D" uid="uid://b7tu77e0abid7" path="res://assets/animaciones/Animacion1.png" id="2_4n2pv"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_8w0r3"]
 radius = 103.121284
@@ -13,8 +12,3 @@ script = ExtResource("1_4n2pv")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D" unique_id=1139837858]
 shape = SubResource("CircleShape2D_8w0r3")
-
-[node name="Animacion1" type="Sprite2D" parent="Area2D" unique_id=166245611]
-position = Vector2(-332, -25)
-scale = Vector2(0.48027343, 0.11805555)
-texture = ExtResource("2_4n2pv")
