@@ -1,14 +1,144 @@
 [gd_scene format=3 uid="uid://i83rmdcdux3a"]
 
-[ext_resource type="Script" uid="uid://2dor7kr2yw2m" path="res://script/ratón.gd" id="1_i3824"]
+[ext_resource type="Script" uid="uid://dblohdvdof53r" path="res://script/inicio.gd" id="1_i3824"]
+[ext_resource type="Texture2D" uid="uid://b7tu77e0abid7" path="res://assets/animaciones/Animacion1.png" id="2_oc22k"]
+[ext_resource type="Texture2D" uid="uid://2gnrurqinl5l" path="res://assets/fondos/propuesta fondos inicio/bead-pattern (1).png" id="2_se2mk"]
+[ext_resource type="Texture2D" uid="uid://bdma4edxewpih" path="res://assets/animaciones/Animacion2.png" id="3_se2mk"]
+[ext_resource type="Texture2D" uid="uid://ywwlowj5ibui" path="res://assets/UI/jugar.png" id="3_xg841"]
+[ext_resource type="Texture2D" uid="uid://chf2kbp3nqs63" path="res://assets/animaciones/Animacion3.png" id="4_4xtsl"]
+[ext_resource type="Texture2D" uid="uid://brtsgfhogipte" path="res://assets/UI/salir.png" id="4_bxgl6"]
 
-[sub_resource type="CircleShape2D" id="CircleShape2D_8w0r3"]
-radius = 103.121284
+[sub_resource type="SpriteFrames" id="SpriteFrames_8w0r3"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_oc22k")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_se2mk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_4xtsl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_se2mk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_oc22k")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_oc22k")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_oc22k")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_oc22k")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_oc22k")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_oc22k")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_oc22k")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_oc22k")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_oc22k")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_oc22k")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_oc22k")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_oc22k")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_oc22k")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_oc22k")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_oc22k")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_oc22k")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_oc22k")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 4.0
+}]
 
-[node name="ratón" type="Node2D" unique_id=1524865348]
+[node name="inicio" type="Node2D" unique_id=1645461925]
 script = ExtResource("1_i3824")
 
-[node name="Area2D" type="Area2D" parent="." unique_id=1288923520]
+[node name="BeadPattern(1)" type="Sprite2D" parent="." unique_id=1813325762]
+position = Vector2(504, 228)
+scale = Vector2(0.4, 0.4)
+texture = ExtResource("2_se2mk")
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D" unique_id=1139837858]
-shape = SubResource("CircleShape2D_8w0r3")
+[node name="Button" type="Button" parent="." unique_id=969084891]
+offset_left = -323.26855
+offset_top = -55.12218
+offset_right = 1555.7314
+offset_bottom = 106.15599
+rotation = 0.2617994
+flat = true
+
+[node name="Jugar" type="Sprite2D" parent="Button" unique_id=872002839]
+position = Vector2(963.1831, 166.50565)
+scale = Vector2(0.50000006, 0.50000006)
+texture = ExtResource("3_xg841")
+
+[node name="Button2" type="Button" parent="." unique_id=1128237204]
+offset_left = 464.41122
+offset_top = -194.13852
+offset_right = 1698.8812
+offset_bottom = -31.82483
+rotation = 1.8325958
+flat = true
+
+[node name="Salir" type="Sprite2D" parent="Button2" unique_id=54237194]
+position = Vector2(686.13184, -5.3552856)
+rotation = 3.1415925
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("4_bxgl6")
+
+[node name="Button3" type="Button" parent="." unique_id=802169510]
+offset_left = 220.83794
+offset_top = 90.221375
+offset_right = 382.58142
+offset_bottom = 251.86597
+rotation = 0.2617994
+flat = true
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1009041929]
+position = Vector2(768, 432.00003)
+scale = Vector2(0.3, 0.3)
+sprite_frames = SubResource("SpriteFrames_8w0r3")
+autoplay = "default"
+frame_progress = 0.12674999
+
+[node name="Timer" type="Timer" parent="." unique_id=78892574]
+
+[node name="LineEdit" type="LineEdit" parent="." unique_id=1581892272]
+offset_left = 67.0
+offset_top = 13.0
+offset_right = 203.0
+offset_bottom = 44.0
+placeholder_text = "Insertar nombre"
+
+[connection signal="pressed" from="Button" to="." method="_on_button_pressed"]
+[connection signal="pressed" from="Button2" to="." method="_on_button_2_pressed"]
+[connection signal="pressed" from="Button3" to="." method="_on_button_3_pressed"]
+[connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]
