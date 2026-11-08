@@ -26,6 +26,7 @@ runtime/balloon_path="res://scenes/dialogo/balloon.tscn"
 
 [display]
 
+window/size/mode=4
 window/stretch/mode="canvas_items"
 window/stretch/aspect="expand"
 

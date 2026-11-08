@@ -3,12 +3,12 @@
 importer="oggvorbisstr"
 type="AudioStreamOggVorbis"
 uid="uid://xol2sdlsawer"
-path="res://.godot/imported/RisaMixta.ogg-f23ef414b775e6f296f13bcfa7fafba8.oggvorbisstr"
+path="res://.godot/imported/RisaMixta.ogg-afd10c57556fbfd1382cb5fcd9393234.oggvorbisstr"
 
 [deps]
 
-source_file="res://sound/RisaMixta.ogg"
-dest_files=["res://.godot/imported/RisaMixta.ogg-f23ef414b775e6f296f13bcfa7fafba8.oggvorbisstr"]
+source_file="res://Sound/RisaMixta.ogg"
+dest_files=["res://.godot/imported/RisaMixta.ogg-afd10c57556fbfd1382cb5fcd9393234.oggvorbisstr"]
 
 [params]
 
