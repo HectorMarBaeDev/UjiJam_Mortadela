@@ -39,7 +39,7 @@ eliminable=""
 
 [internationalization]
 
-locale/translations_pot_files=PackedStringArray("res://dialogos/Capitulo0.dialogue", "res://dialogos/Capitulo1.dialogue", "res://dialogos/Capitulo2.dialogue", "res://dialogos/Capitulo3.dialogue")
+locale/translations_pot_files=PackedStringArray("res://dialogos/Capitulo0.dialogue", "res://dialogos/Capitulo1.dialogue", "res://dialogos/Capitulo2.dialogue", "res://dialogos/Capitulo3.dialogue", "res://dialogos/Capitulo2_2.dialogue", "res://dialogos/Capitulo2_3.dialogue", "res://dialogos/Capitulo3_2.dialogue", "res://dialogos/Capitulo3_3.dialogue", "res://dialogos/Capitulo1_2.dialogue", "res://dialogos/Capitulo3_4.dialogue")
 
 [physics]
 
